@@ -1,0 +1,252 @@
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: "Roboto";
+    overflow-x: hidden;
+}
+
+.top-hero {
+    background-color: #6744d2;
+    height: 70vh;
+    width: 98%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Pembungkus utama top banget */
+.top-section {
+    width: 100%;
+    height: 15%;
+    border-bottom: 1px solid white;
+    padding: 10px 0px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    color: #b9a1ff;
+}
+
+/* Pembungkus atas kiri */
+.top-left {
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+}
+
+.bola-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+
+.bola {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.bola-merah {
+    background-color: red;
+}
+
+.bola-oren {
+    background-color: orangered;
+}
+
+.bola-hijau {
+    background-color: green;
+}
+
+.box-icon {
+    width: 40% !important;
+}
+
+/* Pembungkus atas tengah */
+.top-mid {
+    display: flex;
+    justify-content: center;
+    flex: 4;
+    align-items: center;
+}
+
+.box-search {
+    width: 70%;
+    margin-left: 20px;
+    border-radius: 6px;
+    border: 2px solid #f0dfee;
+    position: relative;
+}
+
+.box-search input {
+    border-radius: 6px;
+    padding: 6px;
+    border: 1px solid #f0dfee;
+}
+
+.box-search input::placeholder {
+    text-align: center;
+}
+
+.box-search::placeholder {
+    text-align: center;
+}
+
+/* Pembungkus atas kanan */
+.top-right {
+    flex: 1;
+    display: flex;
+    justify-content: end;
+}
+
+.box-icon {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* Top main */
+.top-main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.top-main-left {
+    color: #f0dfee;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    width: 30%;
+    align-self: flex-start;
+}
+
+.nav-wrapper {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+    margin-right: 24%;
+    font-weight: 500;
+    color: #9069f1;
+}
+
+.nav-wrapper .active {
+    color: #f0dfee;
+}
+
+.top-main-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f0dfee;
+}
+
+.main-box-search {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.main-search {
+    background: rgba(0, 0, 0, 0);
+    margin-right: 10px;
+    width: 90%;
+    border: 2px solid #f0dfee;
+    border-radius: 6px;
+    padding: 8px;
+}
+
+.main-search::placeholder {
+    color: #f0dfee;
+    text-align: center;
+}
+
+.img-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.img-wrapper img {
+    border-radius: 50%;
+}
+
+.img-wrapper p {
+    line-height: 8px;
+}
+
+.img-wrapper p:nth-child(2) {
+    color: #8f77ef;
+}
+
+.top-mid-section {
+    color: #f0dfee;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+}
+
+.top-mid-rs {
+    display: flex;
+    margin-right: 4.5rem;
+    margin-bottom: 14px;
+    align-items: center;
+}
+
+.showing-box {
+    border: 1px solid white;
+    border-radius: 10px;
+    min-height: 36px;
+    display: flex;
+    align-items: center;
+    padding: 0 14px;
+}
+
+.box-card {
+    display: flex;
+}
+
+.card {
+    background-color: white;
+    min-height: 1rem;
+    width: 26vw;
+    margin-left: 3rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px whitesmoke;
+    padding: 16px;
+}
+
+.card-top {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 14px;
+}
+
+.card-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 14px;
+}
+
+.card-bl {
+    display: flex;
+    align-items: center;
+    line-height: 8px;
+}
+
+.card-br {
+    line-height: 10px;
+    margin-top: 20px;
+}
